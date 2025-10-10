@@ -53,7 +53,7 @@ foreach ($words as $word) {
         $result[] = $word;
 }
 }
-echo "Слова, которые начинаются и заканчивается на одну и ту же букву:\n";
+echo "Слова, которые начинаются и заканчивается на одну и ту же букву:";
 foreach ($result as $word) {
-    echo "- $word\n";
+    echo "- $word";
 }
