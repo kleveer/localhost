@@ -7,7 +7,7 @@
 ?>
 <?php
 echo '<h2>Задание №1</h2>';
-$str = "Hello (misha) !";
+$str = "Hello (pisunator) !";
 $start = 0;
 $end = 0;
 
