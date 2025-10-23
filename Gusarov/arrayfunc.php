@@ -3,7 +3,7 @@ echo "Задание №1", '<br>';
 $numbers = [3,1,456,123,0,7,5];
 $nach = array_search(0, $numbers);
 $result = array_slice($numbers,0, $nach);
-echo "Числа  до нуля включительно: " . implode(", ", $result);
+echo "Числа  до нуля включительно: " . implode(",", $result), '<br>';
 ?>
 
 <?php
@@ -30,5 +30,5 @@ $array = [0,5,8,0,3,0,1,0];
 $filter = array_filter($array, function($val){
     return $val != 0;
 });
-echo "Массив без нолей", implode(", ", $filter),"<br>";
+echo "Массив без нолей:", implode(", ", $filter),"<br>";
 ?>
